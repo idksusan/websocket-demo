@@ -1,6 +1,5 @@
 package com.example.websocketdemo.model;
 
-
 public class ChatMessage {
     private MessageType type;
     private String content;
@@ -9,7 +8,7 @@ public class ChatMessage {
     public enum MessageType {
         CHAT,
         JOIN,
-        LEAVE;
+        LEAVE
     }
 
     public MessageType getType() {
